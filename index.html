@@ -18,7 +18,7 @@ title: Home
   </div>
   {% endfor %}
 </div>
-
+{% include homer.html %}
 <div class="pagination">
   {% if paginator.next_page %}
     <a class="pagination-item older" href="/page{{paginator.next_page}}">Older</a>
